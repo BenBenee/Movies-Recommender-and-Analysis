@@ -1,5 +1,7 @@
 # Movies Story
-![alt text](https://image.tmdb.org/t/p/w500/kmcqlZGaSh20zpTbuoF0Cdn07dT.jpg)
+![foto2](https://image.tmdb.org/t/p/w300/kmcqlZGaSh20zpTbuoF0Cdn07dT.jpg) ![gif1](https://media.giphy.com/media/vuNSaWedpiD28/giphy.gif)
+
+
 Watching a movie has always been a favorite activity to do, either with your family, or couple.
 As for myself, i really like killing my time with watching a movie, and I always wonder and amazed by all the creativity and technology in it.
 In this notebook, i'll try to gain insight from film industry since 1990 until 2017. The data I got from [here](https://www.kaggle.com/rounakbanik/the-movies-dataset) but I made some adjustment on json columns, and adding adjusted budget and revenue for inflation. 
