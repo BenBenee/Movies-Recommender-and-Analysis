@@ -20,13 +20,13 @@ def access_json(data, index):
 
 app = Flask(__name__)
 #model = pickle.load(open('model.pkl', 'rb'))
-mv = pd.read_csv('movies_metadata.csv', parse_dates = ['release_date'], encoding='latin1')
+mv = pd.read_csv('../movies_metadata.csv', parse_dates = ['release_date'], encoding='latin1')
 json_cols = ['collection','genres','production_companies','production_countries']
     
 for cols in json_cols:
     mv[cols] = mv[cols].apply(json.loads)
 
-cr = pd.read_csv('credits.csv', encoding='latin1')
+cr = pd.read_csv('../credits.csv', encoding='latin1')
 
 cr['cast'] = cr['cast'].apply(json.loads)
     
