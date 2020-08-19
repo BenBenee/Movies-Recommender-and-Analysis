@@ -1,5 +1,5 @@
 # Movies Story
-![foto2](https://image.tmdb.org/t/p/w300/kmcqlZGaSh20zpTbuoF0Cdn07dT.jpg) ![gif1](https://media.giphy.com/media/vuNSaWedpiD28/giphy.gif)
+![foto2](https://i.ytimg.com/vi/RqDsqoyjoss/hqdefault.jpg) ![gif1](https://media.giphy.com/media/vuNSaWedpiD28/giphy.gif)
 
 
 Watching a movie has always been a favorite activity to do, either with your family, or couple.
@@ -16,5 +16,11 @@ I seperate this projects into 3 parts:
 3. Recommender in Recommender.ipynb
    For the recommender, I built it from several aspects. Just check it out.
    
-
-
+## Web Interface Recommender
+I've added a web app for our recommender with flask app. To run it, open web folder and run app.py<br>
+### Home Web
+![Home](https://github.com/BenBenee/Movies-Recommender-and-Analysis/blob/master/web/Home.PNG?raw=true)
+### Genre Recommender Page
+![Genre](https://github.com/BenBenee/Movies-Recommender-and-Analysis/blob/master/web/Genre.PNG?raw=true)
+### Content Recommender Page
+![Content](https://github.com/BenBenee/Movies-Recommender-and-Analysis/blob/master/web/content.PNG?raw=true)
